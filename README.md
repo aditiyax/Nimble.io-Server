@@ -64,4 +64,31 @@ The backend powers authentication, user management, and AI-enhanced chat service
    ```
 
 
+---
+
+## 📖 Usage Flow
+
+1. User signs up / logs in via **Auth Service**.  
+2. **User Service** manages and persists their details.  
+3. Through **Chat Service**, users interact with Gemini:
+   - Send prompts and questions  
+   - Receive parsed, structured code  
+   - Compile & run code in a **StackBlitz container**  
+   - Continue iterating with AI in an integrated IDE.  
+
+---
+
+## 🌐 Vision
+
+nimble.io brings the **power of LLMs + cloud IDEs** together:
+
+- Write, run, and iterate code directly in the browser  
+- Seamless AI-powered assistance  
+- No local setup — everything runs in the cloud  
+
+---
+
+## 📜 License
+
+MIT License — free to use, modify, and distribute.
    
