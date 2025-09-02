@@ -1,6 +1,6 @@
-# nimble.io — Backend
+# Nimble.io — Backend
 
-This is the **server-side backend** of **nimble.io**, a next-generation browser-based IDE with **AI-assisted coding**.  
+This is the **server-side/backend** of **nimble.io**, a next-generation browser-based IDE with **AI-assisted coding**.  
 The backend powers authentication, user management, and AI-enhanced chat services that connect with **Google Gemini** and **StackBlitz** web containers.
 
 ---
@@ -35,5 +35,33 @@ The backend powers authentication, user management, and AI-enhanced chat service
 - **REST/GraphQL APIs** for modular services
 
 ---
+## ⚙️ Setup & Installation
 
-## 📂 Repository Structure
+  1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-org/nimble.io-backend.git
+   cd nimble.io-backend
+   ```
+
+
+ 2. Install dependencies::
+ ```bash
+  npm install
+ ```
+
+
+ 3. Setup environment variables (.env):
+ ```env
+   PORT=3000
+   GEMINI_API_KEY=your_api_key_here
+   STACKBLITZ_API_KEY=your_api_key_here
+   DATABASE_URL=your_database_url_here
+ ```
+
+4. Start the server:
+   ```bash
+   npm run dev
+   ```
+
+
+   
