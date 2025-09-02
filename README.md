@@ -39,8 +39,8 @@ The backend powers authentication, user management, and AI-enhanced chat service
 
   1. Clone the repository:
    ```bash
-   git clone https://github.com/your-org/nimble.io-backend.git
-   cd nimble.io-backend
+   git clone https://github.com/aditiyax/Nimble.io-Server.git
+   cd nimble.io-server
    ```
 
 
